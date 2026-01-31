@@ -1,0 +1,107 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+             font-family: Helvetica, Arial, sans-serif;
+        }
+        .fb-container{
+            height: 100vh;
+            background-color: #f2f2f7;
+            display: flex;
+            align-items: center;
+
+        }
+        .flexcontainer{
+            display: flex;
+            margin: auto;
+            /* gap: 20px; */
+        }
+        .flex-item1 img{
+            width: 300px;
+        }
+        .flex-item1{
+            width: 580px;
+            padding: 30px;
+        }
+        .flex-item1 h2{
+            margin-top: -12px;
+            padding-left: 30px ;
+            font-weight: 500;
+        }
+        form{
+            background-color: white;
+            width: 400px;
+            padding: 12px;
+            border-radius: 6px;
+            box-shadow: inset;
+        }
+        form .btn{
+            width: 100%;
+            padding: 14px 16px;
+            border-radius:8px;
+            margin-bottom: 8px;
+        }
+        form input{
+            border: 1px solid lightgray;
+        }
+        .form input:focus{
+            border: 1px solid blue;
+            outline: solid 1px lightgreen;
+            caret-color:blue;
+        }
+        .form .login{
+            background-color: #0866ff;
+            border: none;
+            color: white;
+            font-weight: 700;
+            font-size: 1.2rem
+        }
+        .form input:focus::placeholder{
+            color: lightgray;
+        }
+        .form a{
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+        .form .btn-2{
+            display: block;
+            margin: auto;
+            padding: 13px 20px;
+            background-color: #42b72a;
+            margin-top: 19px;
+            border-radius: 8px;
+            color: white;
+            border: none;
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .form .pass{
+            margin-top: 10px;
+            color: #0866ff;
+        }
+        span{
+            width: 100%;
+            border-bottom: 1px solid lightgrey;
+            display: block;
+            margin-top: 19px;
+        }
+        .form .btn-3 a{
+            color: black;
+            font-weight: 700;
+            
+        }
+        .form .btn-3 a:hover{
+            text-decoration: underline;
+        }
+        .form p{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            
+        }
+        .form .pass:hover{
+            text-decoration: underline;
+        }
